@@ -4,7 +4,7 @@ export default function Home() {
       <h1 className="font-bold text-5xl">Hello Tailwind!!</h1>
       <h2>Hello Tailwind!!!</h2>
       <p>Hello Tailwind!!!</p>
-      <button className="bg-sky-500 px-4 py-2 rounded-md font-medium">
+      <button className="bg-sky-500 px-4 py-2 rounded-md font-medium mt-4 enabled:hover:bg-sky-600 disabled:opacity-60 disabled:cursor-not-allowed">
         SignIn
       </button>
     </div>
